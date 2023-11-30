@@ -338,12 +338,12 @@ footer img {
     height: 2em;
     text-decoration: none;
     margin-top: auto;
-    margin-bottom: -7px;
+    /* margin-bottom: -7px; */
 }
 
 footer a {
     text-decoration: none;
-    font-size: 1.69em;
+    /* font-size: 1.69em; */
     color: #1a73e8;
 }
 
@@ -398,23 +398,6 @@ a.ciudades_links:hover {
 }
 
 /* selected link */
-a.ciudades_links:active {
-    color: #FFF;
-}
-
-/* Media querys */
-@media screen and (max-width: 767px) {
-    .servicio a.boton {
-        width: 100%;
-
-        display: block;
-        margin-bottom: 10px;
-        border-radius: 5px;
-        /* aspect-ratio: 1 / 1; */
-    }
-
-}
-
 @media screen and (max-width: 600px) {
 
     .servicio a.boton {
@@ -430,6 +413,22 @@ a.ciudades_links:active {
     .scroll-section {
         margin-top: -7rem;
         padding-top: 7rem;
+    }
+}
+
+a.ciudades_links:active {
+    color: #FFF;
+}
+
+/* Media querys */
+@media screen and (max-width: 767px) {
+    .servicio a.boton {
+        width: 100%;
+
+        display: block;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        /* aspect-ratio: 1 / 1; */
     }
 
 }
@@ -560,4 +559,12 @@ a.ciudades_links:active {
     border-radius: 0.4em;
     text-decoration: none;
     margin-bottom: -10px;
+}
+
+.separador_box_footer{
+    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
 }
